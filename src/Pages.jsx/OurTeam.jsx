@@ -1,6 +1,6 @@
 const OurTeam = () => {
   return (
-    <div className="container mx-auto pr-0 md:pr-20 pl-0 md:pl-20 mt-10 ">
+    <div className="container mx-auto pr-0 md:pr-20 pl-0 md:pl-20 mt-10">
       <section className="py-6 dark:bg-gray-100 dark:text-gray-800">
         <div className="container p-4 mx-auto space-y-16 sm:p-10">
           <div className="space-y-4">
