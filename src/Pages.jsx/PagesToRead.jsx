@@ -2,6 +2,7 @@
 
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from "recharts";
 
+
 const colors = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "red", "pink"];
 
 const data = [
@@ -36,6 +37,7 @@ const data = [
     amt: 2181,
   },
   
+  
 ];
 
 
@@ -58,8 +60,10 @@ const TriangleBar = (props) => {
 };
 
 const MyBarChart = () => {
+  
   return (
     <div className="">
+
       <BarChart
         className="mx-auto mt-14 "
         

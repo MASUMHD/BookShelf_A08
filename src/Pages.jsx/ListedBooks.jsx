@@ -1,10 +1,14 @@
 import { FaAngleDown } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
 
 const ListedBooks = () => {
 
   const [tabIndex, setTabIndex] = useState(0);
+  
+  const showBooks = (book) => {
+    console.log(book);
+  }
 
   return (
     <div className="container mx-auto pr-0 md:pr-20 pl-0 md:pl-20 ">
@@ -38,6 +42,7 @@ const ListedBooks = () => {
         <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-start flex-nowrap dark:bg-gray-100 dark:text-gray-800">
           <Link
             to=''
+            
             onClick={() => setTabIndex(0)}
             className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 0 ? "border border-b-0 rounded-t-2xl : 'border-b'border-[#23BE0A] dark:border-[#23BE0A]" : "border border-b-1  border-[#23BE0A] border-t-0 border-l-0 border-r-0"}`}
           >
@@ -53,10 +58,13 @@ const ListedBooks = () => {
             >
               <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
             </svg>
-            <span>Read Books</span>
+            <span onClick={() => showBooks()}>Read Books</span>
+            
           </Link>
+          
+          
           <Link
-            to=''
+            to={`unread`}
             onClick={() => setTabIndex(1)}
             className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 1 ? "border border-b-0 rounded-t-2xl : 'border-b'border-[#23BE0A] dark:border-[#23BE0A]" : "border border-b-1 border-[#23BE0A] border-t-0 border-l-0 border-r-0"}`} 
           >
@@ -77,6 +85,8 @@ const ListedBooks = () => {
           </Link>
          
         </div>
+        <Outlet />
+        
       </div>
     </div>
   );

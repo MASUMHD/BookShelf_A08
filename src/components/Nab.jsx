@@ -55,6 +55,26 @@ const Nab = () => {
               >
                 Pages to Read
               </NavLink>
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-xl mr-8 shadow-lg shadow-emerald-500 border-1 border-[#23BE0A] text-[#23BE0A] font-bold"
+                    : "text-xl mr-8 font-bold"
+                }
+              >
+                Review
+              </NavLink>
+              <NavLink
+                to="/team"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-xl mr-8 shadow-lg shadow-emerald-500 border-1 border-[#23BE0A] text-[#23BE0A] font-bold"
+                    : "text-xl mr-8 font-bold"
+                }
+              >
+                Our Team
+              </NavLink>
               {/* <li>
               <a>Item 4</a>
             </li>
@@ -99,6 +119,26 @@ const Nab = () => {
             >
               Pages to Read
             </NavLink>
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive
+                  ? "text-xl mr-8 shadow-lg shadow-emerald-500 border-1  border-[#23BE0A] text-[#23BE0A] font-bold"
+                  : "text-xl mr-8 font-bold"
+              }
+            >
+              Review
+            </NavLink>
+            <NavLink
+                to="/team"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-xl mr-8 shadow-lg shadow-emerald-500 border-1 border-[#23BE0A] text-[#23BE0A] font-bold"
+                    : "text-xl mr-8 font-bold"
+                }
+              >
+                Our Team
+              </NavLink>
             {/* <li>
               <a>Item 4</a>
             </li>

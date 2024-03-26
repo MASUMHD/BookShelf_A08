@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { saveBook } from "../Utils";
 
 const SingleBook = () => {
   
@@ -19,6 +20,14 @@ const SingleBook = () => {
 
     if (!book) {
       return <div>Loading...</div>;
+    }
+
+
+
+
+    const handelRead = (book) => {
+      // console.log(book);
+      saveBook(book);
     }
   return (
     <div className="container mx-auto pl-0 md:pl-20 pr-0 md:pr-20 mb-20  ">
@@ -90,7 +99,9 @@ const SingleBook = () => {
             </div>
 
             <div className="flex gap-4 mt-5">
-              <button className="btn  ml-4 font-bold w-24 border-2 border-[#858484]">Read</button>
+              <button
+               onClick={() => handelRead(book)}
+               className="btn  ml-4 font-bold w-24 border-2 border-[#858484]">Read</button>
               <button className="btn bg-[#50B1C9] text-white w-32">Wishlist</button>
             </div>
           </div>
