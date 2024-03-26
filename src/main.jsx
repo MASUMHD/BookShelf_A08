@@ -10,6 +10,7 @@ import ListedBooks from "./Pages.jsx/ListedBooks";
 import PagesToRead from "./Pages.jsx/PagesToRead";
 
 import AllPag from "./AllWeb/AllPag";
+import SingleBook from "./Pages.jsx/SingleBook";
 
 
 
@@ -22,7 +23,12 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: () => fetch("../public/fakeData.json"),
+        loader: () => fetch("/fakeData.json"),
+      },
+      {
+        path: "/book/:id",
+        element: <SingleBook />, 
+        loader: () => fetch("/fakeData.json"),
       },
       {
         path: "/books",

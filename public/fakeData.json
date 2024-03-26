@@ -27,9 +27,9 @@
     },
     {
       "bookId": 3,
-      "bookName": "1984",
+      "bookName": "The Philosopher's Stone",
       "author": "George Orwell",
-      "image": "https://i.postimg.cc/K8prCQph/kindpng-2592315-1.png",
+      "image": "https://i.postimg.cc/fWvd6Bkq/kindpng-4022054-1.png",
       "review": "George Orwell's '1984' is a chilling dystopian novel that explores the dangers of totalitarianism and the erosion of individual freedom. Set in a totalitarian society ruled by the omnipresent Party led by Big Brother, the novel follows Winston Smith, a low-ranking member of the ruling party who secretly rebels against the oppressive regime. Through Winston's eyes, Orwell paints a grim picture of a society where independent thought and free expression are ruthlessly suppressed, and truth is manipulated by those in power. '1984' remains a stark warning against the dangers of authoritarianism and the importance of safeguarding individual liberty.",
       "totalPages": 328,
       "rating": 4.6,
@@ -119,4 +119,9 @@
 ]
         
       
-      
+
+
+
+
+
+ 

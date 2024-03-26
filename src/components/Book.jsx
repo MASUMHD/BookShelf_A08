@@ -1,7 +1,8 @@
 import { FaRegStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Book = ({ book }) => {
   
-  const { title, author, image, rating,tags } = book;
+  const { title, author, image, rating,tags,bookId } = book;
 
 
   return (
@@ -9,9 +10,10 @@ const Book = ({ book }) => {
       <section className="dark:bg-gray-100 dark:text-gray-800">
         <div className="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
           <div className="">
-            <a
+
+            <Link
               rel="noopener noreferrer"
-              href="#"
+              to={`/book/${bookId}`}
               className="max-w-sm mx-auto group hover:no-underline focus:no-underline dark:bg-gray-50"
             >
               <img
@@ -45,7 +47,7 @@ const Book = ({ book }) => {
                   </p>
                 </div>
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
