@@ -48,7 +48,7 @@ const SingleBook = () => {
               </span>
             </div>
             <hr className="mt-5 mb-3" />
-            <h1 className="text-xl ">Fiction</h1>
+            <h1 className="text-xl ">{book.category}</h1>
             <hr className="mt-3" />
 
             <p className="py-6">

@@ -2,7 +2,7 @@ import { FaRegStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Book = ({ book }) => {
   
-  const { title, author, image, rating,tags,bookId } = book;
+  const { title, author, image, rating,tags,bookId,bookName,category } = book;
 
 
   return (
@@ -21,6 +21,7 @@ const Book = ({ book }) => {
                 className="object-cover w-full rounded p-10 h-80 group-hover:scale-105 sm:h-96 dark:bg-gray-500"
                 src={image}
               />
+              
               <div className="p-6 flex gap-8 text-green-500">
                 <p className="text-base font-bold p-1 w-32 text-center bg-slate-200 rounded-full">
                   {tags[0]}
@@ -29,6 +30,9 @@ const Book = ({ book }) => {
                 {tags[1]}
                 </p>
               </div>
+              <h1 className="text-2xl font-semibold pl-5 mt-2">
+                {bookName}
+              </h1>
               <div className="p-5 space-y-2">
                 <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline mb-4">
                   {title}
@@ -38,7 +42,7 @@ const Book = ({ book }) => {
                 </span>
                 <hr className="mt-5 mb-4 border-dashed border-1 border-slate-400 "></hr>
                 <div className="flex justify-between">
-                  <p className="text-lg text-slate-700">Fiction</p>
+                  <p className="text-lg text-slate-700">{category}</p>
                   <p className="text-lg text-slate-700 flex items-center gap-2">
                     {rating}{" "}
                     <span className="text-xl">
