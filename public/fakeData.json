@@ -7,7 +7,7 @@
       "review": "F. Scott Fitzgerald's 'The Great Gatsby' is a masterful portrayal of the Jazz Age, encapsulating the allure and decadence of the era. Through the enigmatic Jay Gatsby, Fitzgerald explores themes of ambition, love, and the American Dream. Set against the backdrop of 1920s New York, the novel follows narrator Nick Carraway's fascination with the mysterious Gatsby and his obsession with the elusive Daisy Buchanan. Fitzgerald's prose is rich with symbolism, capturing the essence of a generation disillusioned by excess and longing for meaning. 'The Great Gatsby' remains a timeless classic, its themes of love and loss resonating with readers for generations to come.",
       "totalPages": 180,
       "rating": 4.7,
-      "category": "Literary Fiction",
+      "category": "Literary ",
       "tags": ["#Adventure", "#Classic"],
       "publisher": "Charles Scribner's Sons",
       "yearOfPublishing": 1925
@@ -20,7 +20,7 @@
       "review": "Harper Lee's 'To Kill a Mockingbird' is a poignant exploration of racial injustice and moral integrity in the American South. Set in the fictional town of Maycomb, Alabama, during the 1930s, the novel follows young Scout Finch as she navigates the complexities of race and class. Through her father, Atticus Finch, a principled lawyer defending a black man falsely accused of rape, Scout learns about empathy and the importance of standing up for what is right. Lee's narrative is a powerful indictment of prejudice and discrimination, as well as a celebration of human decency and compassion.",
       "totalPages": 324,
       "rating": 4.8,
-      "category": "Classic Literature",
+      "category": "Classic",
       "tags": ["#Classic", "#Witty"],
       "publisher": "J. B. Lippincott & Co.",
       "yearOfPublishing": 1960
@@ -33,7 +33,7 @@
       "review": "George Orwell's '1984' is a chilling dystopian novel that explores the dangers of totalitarianism and the erosion of individual freedom. Set in a totalitarian society ruled by the omnipresent Party led by Big Brother, the novel follows Winston Smith, a low-ranking member of the ruling party who secretly rebels against the oppressive regime. Through Winston's eyes, Orwell paints a grim picture of a society where independent thought and free expression are ruthlessly suppressed, and truth is manipulated by those in power. '1984' remains a stark warning against the dangers of authoritarianism and the importance of safeguarding individual liberty.",
       "totalPages": 328,
       "rating": 4.6,
-      "category": "Dystopian Fiction",
+      "category": "Dystopian",
       "tags": ["#Coming-age", "#Social "],
       "publisher": "Secker & Warburg",
       "yearOfPublishing": 1949
@@ -46,7 +46,7 @@
       "review": "J.D. Salinger's 'The Catcher in the Rye' is a timeless coming-of-age novel that continues to resonate with readers of all ages. Set in the 1950s, the novel follows the disillusioned teenager Holden Caulfield as he navigates the complexities of adolescence and adulthood. Through Caulfield's cynical and introspective narration, Salinger explores themes of alienation, identity, and the loss of innocence. 'The Catcher in the Rye' is a profound exploration of the human condition, capturing the angst and confusion of youth with remarkable honesty and insight.",
       "totalPages": 224,
       "rating": 4.5,
-      "category": "Literary Fiction",
+      "category": "Literary",
       "tags": ["#Dystopian", "#Feminist"],
       "publisher": "Little, Brown and Company",
       "yearOfPublishing": 1951
@@ -85,7 +85,7 @@
         "review": "Fyodor Dostoevsky's 'Crime and Punishment' is a psychological masterpiece that delves into the depths of the human psyche. The novel follows the tormented Raskolnikov, who grapples with guilt after committing a murder. Dostoevsky's exploration of morality, redemption, and the nature of evil is as relevant today as it was when the novel was first published. 'Crime and Punishment' is a profound meditation on the consequences of our actions and the search for meaning in an uncertain world.",
         "totalPages": 576,
         "rating": 4.9,
-        "category": "Psychological Fiction",
+        "category": "Fiction",
         "tags": ["#Literature", "#Morality"],
         "publisher": "The Russian Messenger",
         "yearOfPublishing": 1866
@@ -111,7 +111,7 @@
         "review": "J.D. Salinger's 'The Catcher in the Rye' is a seminal coming-of-age novel that continues to resonate with readers of all generations. Narrated by the iconic Holden Caulfield, the story follows his journey through the streets of New York City as he grapples with the complexities of adolescence and the phoniness of the adult world. Through Caulfield's irreverent voice and cynical observations, Salinger captures the alienation and disillusionment felt by many young people. 'The Catcher in the Rye' explores themes of identity, belonging, and the loss of innocence with honesty and depth. Salinger's prose is as fresh and compelling today as it was upon publication, making the novel a timeless classic that continues to inspire readers to embrace their individuality and question the status quo.",
         "totalPages": 224,
         "rating": 4.5,
-        "category": "Classic Fiction",
+        "category": "Classic",
         "tags": ["#Family Saga", "#Magical"],
         "publisher": "Little, Brown and Company",
         "yearOfPublishing": 1951

@@ -19,6 +19,7 @@ export const saveBook = (book) => {
     newBooks.push(book);
     localStorage.setItem('books', JSON.stringify(newBooks));
     toast.success("Book added successfully");
-
-    
 }
+
+
+

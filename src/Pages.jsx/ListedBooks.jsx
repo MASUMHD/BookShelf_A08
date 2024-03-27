@@ -1,14 +1,28 @@
 import { FaAngleDown } from "react-icons/fa6";
 import { Link, Outlet } from "react-router-dom";
 import { useState } from "react";
+import { saveBook } from "../Utils";
+// import { saveRedBook } from "../Utils/wishList";
+
+
+
 
 const ListedBooks = () => {
 
   const [tabIndex, setTabIndex] = useState(0);
   
   const showBooks = (book) => {
-    console.log(book);
+    // console.log(book);
+    saveBook(book);
   }
+
+  // const WishlistBooks = (book) => {
+  //   saveRedBook(book);
+  //   // console.log(book);
+
+  // }
+
+  
 
   return (
     <div className="container mx-auto pr-0 md:pr-20 pl-0 md:pl-20 ">
@@ -81,7 +95,7 @@ const ListedBooks = () => {
               <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
               <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
             </svg>
-            <span>Wishlist Books</span>
+            <span >Wishlist Books</span>
           </Link>
          
         </div>

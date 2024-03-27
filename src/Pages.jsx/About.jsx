@@ -1,12 +1,7 @@
 const About = () => {
   return (
     <div className="container mx-auto pr-0 md:pr-20 pl-0 md:pl-20 mt-10  ">
-      {/* <h1>About Our Book List Website</h1>
-            <p>
-                Welcome to our book list website! We are passionate about literature and aim to provide a curated selection of books for all readers. With a diverse collection spanning various genres, from classics to contemporary fiction, non-fiction, and everything in between, we strive to cater to every  taste.
-                Our mission is to promote reading culture and foster a love for books by offering recommendations, reviews, and insights into the literary world. Whether  a seasoned bookworm or just starting your reading journey, we have something for everyone. Explore our site, discover new titles, and embark on literary adventures!
-            </p> */}
-
+      
       <div className="flex flex-col max-w-xl p-8 shadow-sm rounded-xl lg:p-12 dark:bg-gray-50 dark:text-gray-800 border-2 border-green-500 ml-0 md:ml-96">
         <div className="flex flex-col items-center w-full ">
           <h2 className="text-3xl font-semibold text-center">

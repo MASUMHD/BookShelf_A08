@@ -1,46 +1,20 @@
-// import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
 
+
+import  { useState, useEffect } from "react";
+import { useLoaderData } from "react-router-dom";
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from "recharts";
 
-
-const colors = ["#0088FE", "#00C49F", "#FFBB28", "#FF8042", "red", "pink"];
-
-const data = [
-  {
-    name: "Page A",
-    uv: 4000,
-    pv: 2400,
-    amt: 2400,
-  },
-  {
-    name: "Page B",
-    uv: 3000,
-    pv: 1398,
-    amt: 2210,
-  },
-  {
-    name: "Page C",
-    uv: 2000,
-    pv: 9800,
-    amt: 2290,
-  },
-  {
-    name: "Page D",
-    uv: 2780,
-    pv: 3908,
-    amt: 2000,
-  },
-  {
-    name: "Page E",
-    uv: 1890,
-    pv: 4800,
-    amt: 2181,
-  },
-  
-  
+const colors = [
+  "#0088FE",
+  "#00C49F",
+  "#FFBB28",
+  "#FF8042",
+  "red",
+  "pink",
+  "blue",
+  "green",
+  "yellow",
 ];
-
-
 
 const getPath = (x, y, width, height) => {
   return `M${x},${y + height}C${x + width / 3},${y + height} ${x + width / 2},${
@@ -60,40 +34,60 @@ const TriangleBar = (props) => {
 };
 
 const MyBarChart = () => {
-  
-  return (
-    <div className="">
+  const books = useLoaderData();
+  const [chartWidth, setChartWidth] = useState(0);
 
-      <BarChart
-        className="mx-auto mt-14 "
-        
-        width={1000}
-        height={400}
-        data={data}
-        margin={{
-          top: 20,
-          right: 30,
-          left: 20,
-          bottom: 5,
-        }}
-      >
-        <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Bar
-          dataKey="uv"
-          fill="#8884d8"
-          shape={<TriangleBar />}
-          label={{ position: "top" }}
+  useEffect(() => {
+    const updateChartWidth = () => {
+      const containerWidth = document.getElementById("chart-container").offsetWidth;
+      setChartWidth(containerWidth);
+    };
+    updateChartWidth();
+    window.addEventListener("resize", updateChartWidth);
+    return () => window.removeEventListener("resize", updateChartWidth);
+  }, []);
+
+  return (
+    <div className="mt-14" id="chart-container">
+      <div className="container mx-auto pr-0 md:pr-0 pl-0 md:pl-0">
+        <BarChart
+          width={chartWidth}
+          height={600}
+          data={books}
+          margin={{
+            top: 20,
+            right: 30,
+            left: 10,
+            bottom: 5,
+          }}
         >
-          {data.map((entry, index) => (
-            <Cell key={`cell-${index}`} fill={colors[index % 20]} />
-          ))}
-        </Bar>
-      </BarChart>
+          <CartesianGrid strokeDasharray="3 3" />
+          <XAxis
+            dataKey="bookName"
+            tick={{ width: 100, fontSize: 12, angle: 0, dy: 10 }}
+            angle={-10}
+            textAnchor="center"
+            interval={0}
+            height={100}
+          />
+          <YAxis />
+          <Bar
+            dataKey="totalPages"
+            fill="#8884d8"
+            shape={<TriangleBar />}
+            label={{ position: "top" }}
+          >
+            {books.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={colors[index % 20]} />
+            ))}
+          </Bar>
+        </BarChart>
+      </div>
     </div>
   );
 };
-MyBarChart.demoUrl = 'https://codesandbox.io/s/bar-chart-with-customized-shape-dusth';
+MyBarChart.demoUrl =
+  "https://codesandbox.io/s/bar-chart-with-customized-shape-dusth";
 
 export default MyBarChart;
+
