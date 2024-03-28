@@ -68,7 +68,7 @@ const Red = ({ book }) => {
 
 
               <div className="flex mt-5 gap-6 w-20 md:w-full">
-                <p className="text-base p-3 w-40 text-[#328EFF] text-center bg-sky-200 rounded-full">
+                <p className="text-sm p-3 w-40 text-[#328EFF] text-center bg-sky-200 rounded-full">
                 Category: {category}
                 </p>
                 <p className="text-base p-3 w-32 text-[#FFAC33] text-center bg-orange-100 rounded-full">
