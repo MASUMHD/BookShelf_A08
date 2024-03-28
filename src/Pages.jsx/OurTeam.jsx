@@ -5,7 +5,7 @@ const OurTeam = () => {
         <div className="container p-4 mx-auto space-y-16 sm:p-10">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold leading-none sm:text-5xl">
-              Meet our team
+              Meet our Writer
             </h3>
             <p className="max-w-2xl dark:text-gray-600">
               At a assumenda quas cum earum ut itaque commodi saepe rem

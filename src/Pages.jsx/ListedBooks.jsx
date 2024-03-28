@@ -19,10 +19,13 @@ const ListedBooks = () => {
   }
 
   
-  // const WishlistBooks = (book) => {
-  //   // saveRedBook(book);
+  const addToWishlist = (book) => {
+    // saveRedBook(book);
+    console.log("hello");
   
-  // }
+  }
+
+  
   
 
   
@@ -83,6 +86,7 @@ const ListedBooks = () => {
           <Link
             to={`unread`}
             onClick={() => setTabIndex(1)}
+            
             className={`flex items-center flex-shrink-0 px-5 py-3 space-x-2 ${tabIndex === 1 ? "border border-b-0 rounded-t-2xl : 'border-b'border-[#23BE0A] dark:border-[#23BE0A]" : "border border-b-1 border-[#23BE0A] border-t-0 border-l-0 border-r-0"}`} 
           >
             <svg
@@ -98,7 +102,9 @@ const ListedBooks = () => {
               <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
               <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
             </svg>
-            <span >Wishlist Books</span>
+            
+            <span onClick={() => addToWishlist()}>Wishlist Books</span>
+            
           </Link>
          
         </div>

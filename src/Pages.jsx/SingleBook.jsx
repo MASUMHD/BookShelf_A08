@@ -11,7 +11,7 @@ const SingleBook = () => {
     fetch("/fakeData.json")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
 
         const foundBook = data.find((book) => book.bookId == id);
         setBook(foundBook);

@@ -73,7 +73,7 @@ const Nab = () => {
                     : "text-xl mr-8 font-bold"
                 }
               >
-                Our Team
+                Our Writer
               </NavLink>
               {/* <li>
               <a>Item 4</a>
@@ -137,7 +137,7 @@ const Nab = () => {
                     : "text-xl mr-8 font-bold"
                 }
               >
-                Our Team
+                Our Writer
               </NavLink>
             {/* <li>
               <a>Item 4</a>
