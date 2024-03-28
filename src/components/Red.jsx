@@ -4,6 +4,7 @@ import { SlPeople } from "react-icons/sl";
 import { TfiFile } from "react-icons/tfi";
 
 const Red = ({ book }) => {
+  
   const {
     author,
     image,
