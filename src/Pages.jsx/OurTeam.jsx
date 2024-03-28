@@ -5,7 +5,7 @@ const OurTeam = () => {
         <div className="container p-4 mx-auto space-y-16 sm:p-10">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold leading-none sm:text-5xl">
-              Meet our Writer
+              Meet our Writers
             </h3>
             <p className="max-w-2xl dark:text-gray-600">
               At a assumenda quas cum earum ut itaque commodi saepe rem
@@ -18,7 +18,7 @@ const OurTeam = () => {
               <img
                 alt=""
                 className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
-                src="https://source.unsplash.com/240x320/?portrait?0"
+                src="https://media.istockphoto.com/id/1277353997/photo/he-knows-his-brand-like-the-back-of-his-hand.webp?b=1&s=170667a&w=0&k=20&c=amYA04hpVot_MsytYWqbLRnTDBMfoUrdRjCQQWAAUjk="
               />
               <div className="flex flex-col items-center">
                 <h4 className="text-xl font-semibold">Leroy Jenkins</h4>
@@ -76,7 +76,7 @@ const OurTeam = () => {
               <img
                 alt=""
                 className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
-                src="https://source.unsplash.com/240x320/?portrait?1"
+                src="https://images.unsplash.com/photo-1609131257008-a5436a6238da?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fG1hbiUyMHdyaXRpbmd8ZW58MHx8MHx8fDA%3D"
               />
               <div className="flex flex-col items-center">
                 <h4 className="text-xl font-semibold">Leroy Jenkins</h4>
@@ -134,7 +134,7 @@ const OurTeam = () => {
               <img
                 alt=""
                 className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
-                src="https://source.unsplash.com/240x320/?portrait?2"
+                src="https://images.unsplash.com/photo-1587428598020-9ecf13caec01?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG1hbiUyMHdyaXRpbmd8ZW58MHx8MHx8fDA%3D"
               />
               <div className="flex flex-col items-center">
                 <h4 className="text-xl font-semibold">Leroy Jenkins</h4>
@@ -192,7 +192,7 @@ const OurTeam = () => {
               <img
                 alt=""
                 className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
-                src="https://source.unsplash.com/240x320/?portrait?3"
+                src="https://images.unsplash.com/photo-1534120045191-89e4963980a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bWFuJTIwd3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D"
               />
               <div className="flex flex-col items-center">
                 <h4 className="text-xl font-semibold">Leroy Jenkins</h4>
@@ -250,7 +250,7 @@ const OurTeam = () => {
               <img
                 alt=""
                 className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
-                src="https://source.unsplash.com/240x320/?portrait?4"
+                src="https://plus.unsplash.com/premium_photo-1683121773733-81ac676f663d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bWFuJTIwd3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D"
               />
               <div className="flex flex-col items-center">
                 <h4 className="text-xl font-semibold">Leroy Jenkins</h4>
@@ -308,7 +308,7 @@ const OurTeam = () => {
               <img
                 alt=""
                 className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
-                src="https://source.unsplash.com/240x320/?portrait?5"
+                src="https://images.unsplash.com/photo-1494883759339-0b042055a4ee?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFuJTIwd3JpdGluZ3xlbnwwfHwwfHx8MA%3D%3D"
               />
               <div className="flex flex-col items-center">
                 <h4 className="text-xl font-semibold">Leroy Jenkins</h4>
@@ -366,7 +366,7 @@ const OurTeam = () => {
               <img
                 alt=""
                 className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
-                src="https://source.unsplash.com/240x320/?portrait?6"
+                src="https://media.istockphoto.com/id/1179479073/photo/man-writing-down-thoughts.webp?b=1&s=170667a&w=0&k=20&c=bJYdU9S9Jf8jt2JN9gyU0Wi1-01w32Wb9PtVLxMkS7s="
               />
               <div className="flex flex-col items-center">
                 <h4 className="text-xl font-semibold">Leroy Jenkins</h4>
@@ -424,7 +424,7 @@ const OurTeam = () => {
               <img
                 alt=""
                 className="object-cover h-56 mx-auto mb-4 bg-center rounded-sm dark:bg-gray-500"
-                src="https://source.unsplash.com/240x320/?portrait?7"
+                src="https://media.istockphoto.com/id/1352005300/photo/writing-and-composing-man.jpg?s=612x612&w=0&k=20&c=IIjJ0B8e2ATUE0yaDfr2iA3J__IM9l1pdva6rBvsaKk="
               />
               <div className="flex flex-col items-center">
                 <h4 className="text-xl font-semibold">Leroy Jenkins</h4>
