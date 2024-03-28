@@ -10,6 +10,7 @@ const ReadBooks = () => {
     
     useState(() => {
         const storeBooks = getBook();
+        
         setBooks(storeBooks);
     },[]);
     
